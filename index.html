@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Stagepresentatie Essent - Verwerkingsopdracht</title>
+
+    <!-- Reveal.js Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    
+    <!-- Custom Theme inspired by aura.build (Digital Agency Look) -->
+    <style>
+        :root {
+            --r-background-color: #050505;
+            --r-main-font: 'Inter', system-ui, -apple-system, sans-serif;
+            --r-heading-font: 'Inter', system-ui, sans-serif;
+            --r-heading-color: #ffffff;
+            --r-main-color: #e0e0e0;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+            --glass-bg: rgba(255, 255, 255, 0.05);
+        }
+
+        .reveal {
+            background-color: var(--r-background-color);
+            color: var(--r-main-color);
+        }
+
+        .reveal h1, .reveal h2, .reveal h3 {
+            text-transform: none;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .reveal h2 {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 40px;
+        }
+
+        .reveal .slides section {
+            text-align: left;
+        }
+
+        .reveal .slides section.center {
+            text-align: center;
+        }
+
+        /* Glass Cards */
+        .card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #a855f7;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none !important;
+            margin-left: 0 !important;
+        }
+
+        ul li::before {
+            content: "→";
+            color: #ec4899;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .footer-info {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.4em;
+            opacity: 0.5;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .stat-box {
+            text-align: center;
+            border-left: 4px solid #6366f1;
+            padding-left: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 50px;
+            background: var(--accent-gradient);
+            color: white;
+            font-size: 0.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        img.stage-photo {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Dia 1: Startdia -->
+            <section class="center">
+                <div class="badge">STAGEVERWERKING NEDERLANDS</div>
+                <h1 style="font-size: 3em;">Stage bij <span style="background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Essent</span></h1>
+                <p>Een kijkje achter de schermen van een energiegigant</p>
+                <div style="margin-top: 100px; font-size: 0.8em; opacity: 0.8;">
+                    <p><strong>Naam:</strong> [Jouw Naam]</p>
+                    <p><strong>Datum:</strong> 17 april 2024</p>
+                </div>
+            </section>
+
+            <!-- Dia 2: Inhoudsopgave -->
+            <section>
+                <h2>Inhoudsopgave</h2>
+                <div class="card">
+                    <ul>
+                        <li>Het Bedrijf: Essent</li>
+                        <li>Mijn Werkzaamheden</li>
+                        <li>De Functie: Scrum Master</li>
+                        <li>De Interviews (Stefan & Morten)</li>
+                        <li>Persoonlijk Element</li>
+                        <li>Evaluatie & Terugblik</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Dia 3: Het Bedrijf -->
+            <section>
+                <h2>1. Het Bedrijf: Essent</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Wat doen ze?</h3>
+                        <p>Bekend als energieleverancier, maar ze doen meer:</p>
+                        <ul>
+                            <li>Leveren van stroom & gas</li>
+                            <li>Software voor slimme apparaten</li>
+                            <li>Innovatieve huisautomatisering</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>De Omvang</h3>
+                        <p>Een groot bedrijf met veel diverse teams.</p>
+                        <div class="stat-box">
+                            <p class="highlight" style="font-size: 1.5em; margin: 0;">Groot Team</p>
+                            <p style="font-size: 0.8em;">Product Owners & Scrum Masters</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dia 4: Methode & Motivatie -->
+            <section>
+                <h2>Werkmethode & Motivatie</h2>
+                <div class="card">
+                    <h3>Agile / Scrum</h3>
+                    <p>Bij Essent wordt gewerkt volgens de <span class="highlight">Agile</span> methode. Dit betekent flexibel en in korte periodes (sprints) naar resultaten toewerken.</p>
+                </div>
+                <div class="card" style="border-left: 4px solid #ec4899;">
+                    <h3>Waarom Essent?</h3>
+                    <p>Mijn motivatie: Ik was erg benieuwd hoe het er bij zo'n grote, bekende organisatie achter de schermen aan toe gaat. Hoe krijg je zoveel mensen neuzen dezelfde kant op?</p>
+                </div>
+            </section>
+
+            <!-- Dia 5: Werkzaamheden -->
+            <section>
+                <h2>2. Werkzaamheden</h2>
+                <p>Geen koffie halen, maar echt meedraaien!</p>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Activiteiten</h3>
+                        <ul>
+                            <li>Meelopen met dagelijkse taken</li>
+                            <li>Collega's interviewen</li>
+                            <li>Meeluisteren bij belangrijke calls</li>
+                            <li>Deelnemen aan meetings</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Aansturing</h3>
+                        <p>De <span class="highlight">Scrum Master</span> gaf mij de opdrachten. Er was veel interactie en samenwerking met het hele team.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dia 6: De Werkomgeving -->
+            <section>
+                <h2>De Werkomgeving</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <p>Essent heeft een zeer moderne kantoorinrichting:</p>
+                        <ul>
+                            <li><span class="highlight">Open kantooreilandjes:</span> Voor snelle communicatie tussen teamleden.</li>
+                            <li><span class="highlight">Vergaderruimtes:</span> Diverse ruimtes voor overleg en brainstormsessies.</li>
+                            <li>Een informele maar professionele sfeer.</li>
+                        </ul>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <img src="https://raw.githubusercontent.com/mail2morten/nikolaj-essent/8fc2a3a2a0067894eda614ed3a5f800134e15ffa/nikolaj-laptop.jpeg" alt="Mijn werkplek bij Essent" class="stage-photo">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dia 7: Opleiding: Scrum Master -->
+            <section>
+                <h2>3. Functie: Scrum Master</h2>
+                <div class="card">
+                    <p>De Scrum Master is de "coach" van het team. Hij/zij zorgt dat het proces soepel verloopt en obstakels worden weggenomen.</p>
+                </div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>De Studie</h3>
+                        <ul>
+                            <li>HBO ICT of Engineering</li>
+                            <li>Duur: 4 jaar</li>
+                            <li>Focus op techniek én communicatie</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Toelating</h3>
+                        <p>Minimaal HAVO of MBO-4 diploma vereist.</p>
+                        <p><strong>Locatie:</strong> Bijv. Avans Hogeschool (Den Bosch).</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dia 8: Interview: Stefan -->
+            <section>
+                <h2>4. Interview: Stefan</h2>
+                <div class="badge">PRODUCT OWNER</div>
+                <div class="card">
+                    <p>"Het is fantastisch om de hele dag met mensen te werken."</p>
+                    <hr style="opacity: 0.2;">
+                    <ul>
+                        <li><strong>Rol:</strong> Werkt samen met Essent om prioriteiten te bepalen.</li>
+                        <li><strong>Taak:</strong> Controleren van het werk en bepalen wat als eerste moet gebeuren.</li>
+                        <li><strong>Passie:</strong> Communicatie en het overzicht bewaken.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Dia 9: Interview: Morten -->
+            <section data-background-image="https://raw.githubusercontent.com/mail2morten/nikolaj-essent/refs/heads/main/scrummaster-presentatie.jpeg" data-background-opacity="0.3">
+                <h2>4. Interview: Morten</h2>
+                <div class="badge">SCRUM MASTER</div>
+                <div class="card">
+                    <p>"De afwisseling tussen mensen en computers maakt het mooi."</p>
+                    <hr style="opacity: 0.2;">
+                    <ul>
+                        <li><strong>Rol:</strong> In dienst bij Essent.</li>
+                        <li><strong>Taak:</strong> Begeleiden van het teamproces en waarde creëren.</li>
+                        <li><strong>Passie:</strong> De technische kant combineren met het menselijke aspect.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Dia 10: Persoonlijk Element -->
+            <section class="center" data-background-image="https://raw.githubusercontent.com/mail2morten/nikolaj-essent/refs/heads/main/nikolaj-essent-auto.jpeg" data-background-opacity="0.3">
+                <h2>Persoonlijk Element</h2>
+                <div class="card" style="display: inline-block; text-align: left; max-width: 800px;">
+                    <h3 style="color: #ec4899;">Anekdote & Voorwerp</h3>
+                    <p>Ik heb voor deze presentatie een <strong>[Naam Voorwerp]</strong> meegenomen.</p>
+                    <p>Tijdens de stage gebeurde er iets interessants...</p>
+                    <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 20px;">
+                        <em>[Vertel hier je persoonlijke verhaal over wat je hebt meegemaakt of waarom dit voorwerp belangrijk is voor je stage-ervaring.]</em>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dia 11: Evaluatie -->
+            <section>
+                <h2>5. Evaluatie</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Mijn Ervaring</h3>
+                        <p>De werkzaamheden waren super efficiënt georganiseerd. De sfeer bij Essent is modern en heel fijn om in te werken.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Reflectie</h3>
+                        <p>Het ging erg goed! Ik had verwacht dat ik <em>iets</em> zou leren, maar ik heb écht nuttige kennis opgedaan over het bedrijfsleven.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dia 12: Toekomst & Familie -->
+            <section>
+                <h2>Toekomst & Stageplek</h2>
+                <div class="card">
+                    <h3>De Sector</h3>
+                    <p>Het lijkt me zeker interessant om in deze sector te werken, maar dan zou ik een <strong>technische richting</strong> kiezen.</p>
+                </div>
+                <div class="card" style="border-left: 4px solid #6366f1;">
+                    <h3>Bijzonder detail</h3>
+                    <p>Ik heb deze stage gelopen bij <strong>mijn vader</strong>. Het was heel leuk om te zien wat hij nu eigenlijk precies doet in deze moderne omgeving!</p>
+                </div>
+            </section>
+
+            <!-- Dia 13: Slot -->
+            <section class="center">
+                <h2>Bedankt voor de aandacht!</h2>
+                <p>Zijn er nog vragen?</p>
+                <div style="margin-top: 50px;">
+                    <div class="badge">EINDE PRESENTATIE</div>
+                </div>
+            </section>
+
+        </div>
+        <div class="footer-info">Stageverslag Essent | Nederlands Verwerkingsopdracht</div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            center: false,
+            transition: 'slide', // Slide overgang
+            backgroundTransition: 'fade',
+            mouseWheel: true,
+            controls: true,
+            progress: true,
+        });
+    </script>
+</body>
+</html>
